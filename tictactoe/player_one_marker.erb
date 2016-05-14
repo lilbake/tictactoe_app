@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Tic Tac Toe</title>
+	</head>
+	<body>
+	<h1>Player one is <%=player_one%> and player two is <%player_two%>.</h1>
+	<h2>Would you like player one or player two to be X?</h2>
+	<form action = "/playermarker" method = "post">
+		<select name = "player_one">
+			<option value="X">X</option>
+			<option value="O">O</option>
+		</select>
+	<br>
+			<input type = "submit">
+	</form>
+	</body>
+</html>

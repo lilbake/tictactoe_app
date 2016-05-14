@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Tic Tac Toe</title>
+	</head>
+	<body>
+	<center><h2><font face = "fantasy">"X" -or- "O"</font></h2>
+	<hr color = "lightblue" width = "20%">
+	<hr color = "black" width = "25%">
+	<hr color = "lightblue" width = "30%">
+	
+	<p>Player one is a <%=player_one%> and player two is a <%=player_two%>.</p>
+	<p>Would you like player one to be X?</p>
+	<br>
+	<h4>Choose y/n?</h4>
+	<form action = "/playermarker" method = "post">
+		<select name = "player_one_marker">
+			<option value = "yes">yes</option>
+			<option value = "no">no</option>
+		</select>
+	<br>
+	<br>
+			<input type = "submit" value = "NEXT">
+	</form>
+	</center>
+	</body>
+</html>

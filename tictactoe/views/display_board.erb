@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<body>
+	<center>
+
+	<h2><font face = "fantasy">Tic Tac Toe</font></h2>
+	<hr color = "lightblue" width = "20%">
+	<hr color = "black" width = "25%">
+	<hr color = "lightblue" width = "30%">
+	
+	<p>Player one, go first.</p>
+
+
+	<form action = "/win_lose_tie" method = "post">
+
+	<table>
+		<tr>
+			<td class = "top_row"><input type = "submit" name = "select" value = "1"><%=board[0]%></td>
+			<td class = "top_row"><input type = "submit" name = "select" value = "2"><%=board[1]%></td>
+			<td class = "top_row"><input type = "submit" name = "select" value = "3"><%=board[2]%></td>
+		</tr>
+		<tr>
+			<td class = "middle_row"><input type = "submit" name = "select" value = "4"><%=board[3]%></td>
+			<td class = "middle_row"><input type = "submit" name = "select" value = "5"><%=board[4]%></td>
+			<td class = "middle_row"><input type = "submit" name = "select" value = "6"><%=board[5]%></td>
+		</tr>
+		<tr>
+			<td class = "bottom_row"><input type = "submit" name = "select" value = "7"><%=board[6]%></td>
+			<td class = "bottom_row"><input type = "submit" name = "select" value = "8"><%=board[7]%></td>
+			<td class = "bottom_row"><input type = "submit" name = "select" value = "9"><%=board[8]%></td>
+		</tr>
+		
+	</table>
+	<br>
+
+	</form>
+
+	</center>
+	</body>
+</html>
+
