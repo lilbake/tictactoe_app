@@ -1,0 +1,42 @@
+----TIC TAC TOE RULES----
+
+A player can play a perfect game of Tic-tac-toe (to win or, at least, draw) if they choose the first available move from the following list, each turn, as used in Newell and Simon's 1972 tic-tac-toe program.[6]
+
+1.Win: If the player has two in a row, they can place a third to get three in a row.
+
+2.Block: If the opponent has two in a row, the player must play the third themselves to block the opponent.
+
+3.Fork: Create an opportunity where the player has two threats to win (two non-blocked lines of 2).
+
+4.Blocking an opponent's fork: 
+	
+	-Option 1: The player should create two in a row to force the opponent into defending, as long as it doesn't result in them creating a fork. For example, if "X" has a corner, "O" has the center, and "X" has the opposite corner as well, "O" must not play a corner in order to win. (Playing a corner in this scenario creates a fork for "X" to win.)
+	
+	-Option 2: If there is a configuration where the opponent can fork, the player should block that fork.
+
+5.Center: A player marks the center. (If it is the first move of the game, playing on a corner gives "O" more opportunities to make a mistake and may therefore be the better choice; however, it makes no difference between perfect players.)
+
+6.Opposite corner: If the opponent is in the corner, the player plays the opposite corner.
+
+7.Empty corner: The player plays in a corner square.
+
+8.Empty side: The player plays in a middle square on any of the 4 sides.
+
+The first player, who shall be designated "X", has 3 possible positions to mark during the first turn. Superficially, it might seem that there are 9 possible positions, corresponding to the 9 squares in the grid. However, by rotating the board, we will find that in the first turn, every corner mark is strategically equivalent to every other corner mark. The same is true of every edge mark. For strategy purposes, there are therefore only three possible first marks: corner, edge, or center. Player X can win or force a draw from any of these starting marks; however, playing the corner gives the opponent the smallest choice of squares which must be played to avoid losing.[7]
+
+The second player, who shall be designated "O", must respond to X's opening mark in such a way as to avoid the forced win. Player O must always respond to a corner opening with a center mark, and to a center opening with a corner mark. An edge opening must be answered either with a center mark, a corner mark next to the X, or an edge mark opposite the X. Any other responses will allow X to force the win. Once the opening is completed, O's task is to follow the above list of priorities in order to force the draw, or else to gain a win if X makes a weak play.
+
+To guarantee a draw for O, however:
+If X does not play center opening move (playing a corner is the best opening move), take center, and then a side middle. This will stop any forks from happening. 
+
+If O plays a corner, a perfect X player has already played the corner opposite their first and proceeds to play a 3rd corner, stopping O's 3-in-a-row and making their own fork. 
+
+However, if X is not a perfect player and has played a corner and then a side middle, O should not play the opposite side middle as the second move, because then X is not forced to block in the next move and can fork. 
+
+If O takes center (best move for them), X should take the corner opposite the original, and proceed as detailed above. The only way for O to force a tie against a perfect X player is if O plays middle and then a side-middle.
+
+If O plays a corner or side-middle first, X is guaranteed to win: If corner, X simply takes any of the other 2 corners, and then the last, a fork.
+
+If O plays a side-middle, X takes the only corner that O's blocking won't make 2 in a row. O will block, but the best of the other two will be seen by X, and O is forked.
+
+If X plays center opening move, O should pay attention and not allow a fork. X should play a corner first.

@@ -1,5 +1,6 @@
 require_relative "tictactoe_sai.rb"
 require_relative "tictactoe_seq_sai.rb"
+require_relative "human.rb"
 
 def play_game (current_player, opponent, board)
 

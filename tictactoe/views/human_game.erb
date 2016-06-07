@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+	<head><title> Human </title>
+	</head>
+		<center><h2><font face = "fantasy"> Play Game </font></h2>
+		<hr color = "lightblue" width = "20%">
+		<hr color = "black" width = "25%">
+		<hr color = "lightblue" width = "30%">
+
+		 <p> Select Position!</p>
+		 <br>
+ 	<form action = "/human_game" method = "post">
+ 	
+ 	<input type = "radio" name = "move" value = "1"><%=board[0]%>
+ 	<input type = "radio" name = "move" value = "2"><%=board[1]%>
+  	<input type = "radio" name = "move" value = "3"><%=board[2]%><br>
+    <input type = "radio" name = "move" value = "4"><%=board[3]%>
+    <input type = "radio" name = "move" value = "5"><%=board[4]%>
+    <input type = "radio" name = "move" value = "6"><%=board[5]%><br>
+    <input type = "radio" name = "move" value = "7"><%=board[6]%>
+    <input type = "radio" name = "move" value = "8"><%=board[7]%>
+    <input type = "radio" name = "move" value = "9"><%=board[8]%><br>
+
+    <input type = "submit" value = "Game Board">
+    	</center>
+	</form>
+</html>
+
+
